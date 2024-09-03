@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    
+    <div class="btns">
+        <button class="red">Red</button>
+        <button class="green">Green</button>
+        <button class="blue">Blue</button>
+        <button class="random">Random</button>
+        <button class="custom-color">
+            <input type="color" id="colorPicker" value="#000000">
+            <label for="colorPicker">Custom</label>
+        </button>
+    </div>
+
+    <div class="viewport"></div>
+    
+    <div class="btns2">
+        <!-- Added a common class 'bottom-btn' to both buttons -->
+        <button class="dimensions bottom-btn">Select Dimensions</button>
+        <button class="shake bottom-btn">Shake</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
